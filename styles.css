@@ -320,7 +320,7 @@ img { display: block; max-width: 100%; }
 
 .shot-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.75rem;
 }
 
@@ -331,19 +331,20 @@ img { display: block; max-width: 100%; }
 }
 
 .shot-frame {
-    background: var(--paper);
+    background: #000;
     border: 1px solid var(--edge);
-    border-radius: var(--radius);
-    padding: 1.25rem;
+    border-radius: 22px;
+    padding: 0.4rem;
     overflow: hidden;
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .shot-frame img {
+    display: block;
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 18px;
 }
 
 .shot:hover .shot-frame {

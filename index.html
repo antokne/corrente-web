@@ -18,7 +18,7 @@
     <meta name="twitter:description" content="Solar, battery, and grid in a single live view — with accurate, circuit-level cost.">
     <meta name="twitter:image" content="images/icon.png">
 
-    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
     <nav class="site-nav">
@@ -37,7 +37,7 @@
             <div class="hero-copy">
                 <span class="kicker">Solar · Battery · Grid</span>
                 <h1>Know what your energy <span class="accent">really costs.</span></h1>
-                <p class="lead">Corrente reads real circuit-level usage from your Basis switchboard and nets out your own solar and battery — so the cost you see is the cost you actually pay.</p>
+                <p class="lead">Corrente reads real, circuit-level usage from your Basis switchboard and accounts for the solar you generate and the battery power you store — for a far clearer picture of what your energy really costs.</p>
                 <div class="hero-actions">
                     <!-- TODO: replace with your TestFlight public beta link -->
                     <a href="https://testflight.apple.com/join/XXXXXXXX" class="tf-badge">
@@ -59,7 +59,7 @@
         <section class="spotlight band">
             <div class="container">
                 <div class="spotlight-copy">
-                    <span class="kicker">The whole point</span>
+                    <span class="kicker">Why it's different</span>
                     <h2>True cost, not a guess.</h2>
                     <p>Most energy apps read a single meter and estimate the rest. Corrente takes real, per-circuit usage from your Basis switchboard and accounts for the energy your own solar and battery supplied — so every kilowatt-hour is priced against the grid rate you'd have actually paid, using your Basis retail plan's own peak, shoulder, and off-peak bands.</p>
                 </div>
@@ -117,27 +117,39 @@
                 <div class="shot-grid">
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/energy-summary.png" alt="Live energy summary showing solar generating 5.23 kW, home consuming 3.50 kW, battery at 85%, and 530 W exporting to the grid." width="1160" height="900" loading="lazy">
+                            <img src="images/live.png" alt="Live energy view showing solar generating 5.23 kW, home consuming 3.50 kW, battery at 85%, and 530 W exporting to the grid, with the switchboard's active circuits listed below." width="1320" height="2868" loading="lazy">
                         </div>
                         <figcaption><span>Live</span> — solar, battery, grid, and home at a glance.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/energy-history.png" alt="Solar Generated bar chart across a day, peaking around midday." width="1160" height="940" loading="lazy">
+                            <img src="images/history.png" alt="Energy History with a Solar Generated weekly bar chart and totals for solar generated, home consumed, grid imported and exported, and battery charged and discharged." width="1320" height="2868" loading="lazy">
                         </div>
                         <figcaption><span>Energy History</span> — where every kilowatt-hour came from.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/energy-cost.png" alt="Energy cost breakdown with amortized solar and battery, peak and off-peak rates, daily charge, export credit, and a bill total of $1.92." width="1160" height="1300" loading="lazy">
+                            <img src="images/costs.png" alt="Energy Costs for the day with a per-hour cost chart and an itemised breakdown of amortized solar and battery, peak and off-peak rates, daily charge, export credit, and savings." width="1320" height="2868" loading="lazy">
                         </div>
                         <figcaption><span>Energy Costs</span> — the true cost, itemised to the cent.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/switchboard.png" alt="Stacked switchboard chart showing off-peak, peak, battery, and solar contributions across the day." width="1160" height="600" loading="lazy">
+                            <img src="images/roi.png" alt="Solar ROI screen showing 31.2 MWh total generated, self-consumed and export earnings, total savings of $8,567, system cost, and remaining balance." width="1320" height="2868" loading="lazy">
                         </div>
-                        <figcaption><span>Switchboard</span> — per-circuit usage with full attribution.</figcaption>
+                        <figcaption><span>Solar ROI</span> — lifetime generation, earnings, and payback.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/switchboard-live.png" alt="Switchboard live view with a total power of 5.26 kW and a ranked list of circuits — heat pump, hot water, oven, lighting and more — each with live power and load." width="1320" height="2868" loading="lazy">
+                        </div>
+                        <figcaption><span>Switchboard</span> — live per-circuit power across your board.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/switchboard-circuit.png" alt="Heat Pump circuit drill-in with a daily peak, shoulder, and off-peak bar chart and an energy breakdown by rate band." width="1320" height="2868" loading="lazy">
+                        </div>
+                        <figcaption><span>Subcircuit Drill-In</span> — any circuit's own history, day to year.</figcaption>
                     </figure>
                 </div>
             </div>
