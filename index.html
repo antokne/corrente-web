@@ -18,7 +18,7 @@
     <meta name="twitter:description" content="Solar, battery, and grid in a single live view — with accurate, circuit-level cost.">
     <meta name="twitter:image" content="images/icon.png">
 
-    <link rel="stylesheet" href="styles.css?v=1">
+    <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
     <nav class="site-nav">
@@ -47,14 +47,10 @@
                 </div>
             </div>
 
-            <div class="flow" aria-hidden="true">
-                <span class="flow__node flow__node--solar">SOLAR</span>
-                <span class="flow__node flow__node--battery">BATT</span>
-                <span class="flow__node flow__node--grid">GRID</span>
-                <span class="flow__home">HOME</span>
-                <span class="flow__lane flow__lane--solar"></span>
-                <span class="flow__lane flow__lane--battery"></span>
-                <span class="flow__lane flow__lane--grid"></span>
+            <div class="hero-shot">
+                <img src="images/energy-flow.gif"
+                     alt="Corrente's live energy view — solar, battery, grid, and home connected in an animated hub-and-spoke flow."
+                     width="384" height="384" loading="eager">
             </div>
         </div>
     </header>
@@ -107,6 +103,42 @@
                         <h3>Subcircuit Drill-In</h3>
                         <p>Tap into any circuit for its own time-series with period navigation, from a single day out to the full year.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="showcase">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">A closer look</span>
+                    <h2>See it in action</h2>
+                    <p>Real screens, real data — pulled straight from the app.</p>
+                </div>
+                <div class="shot-grid">
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/energy-summary.png" alt="Live energy summary showing solar generating 5.23 kW, home consuming 3.50 kW, battery at 85%, and 530 W exporting to the grid." width="1160" height="900" loading="lazy">
+                        </div>
+                        <figcaption><span>Live</span> — solar, battery, grid, and home at a glance.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/energy-history.png" alt="Solar Generated bar chart across a day, peaking around midday." width="1160" height="940" loading="lazy">
+                        </div>
+                        <figcaption><span>Energy History</span> — where every kilowatt-hour came from.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/energy-cost.png" alt="Energy cost breakdown with amortized solar and battery, peak and off-peak rates, daily charge, export credit, and a bill total of $1.92." width="1160" height="1300" loading="lazy">
+                        </div>
+                        <figcaption><span>Energy Costs</span> — the true cost, itemised to the cent.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/switchboard.png" alt="Stacked switchboard chart showing off-peak, peak, battery, and solar contributions across the day." width="1160" height="600" loading="lazy">
+                        </div>
+                        <figcaption><span>Switchboard</span> — per-circuit usage with full attribution.</figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
