@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrente — Your whole home's energy, in one view</title>
+    <meta name="description" content="Corrente brings your solar, battery, and grid into a single live view — with Energy History, accurate Energy Costs, and Solar ROI. Works with Tesla Powerwall and the Basis switchboard.">
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Corrente — Your whole home's energy, in one view">
+    <meta property="og:description" content="Solar, battery, and grid in a single live view — with accurate, circuit-level cost.">
+    <meta property="og:url" content="https://antokne.github.io/corrente-web/">
+    <meta property="og:image" content="images/icon.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Corrente — Your whole home's energy, in one view">
+    <meta name="twitter:description" content="Solar, battery, and grid in a single live view — with accurate, circuit-level cost.">
+    <meta name="twitter:image" content="images/icon.png">
+
+    <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+    <nav class="site-nav">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <img src="images/icon.png" alt="" width="30" height="30">
+                Corrente
+            </a>
+            <!-- TODO: replace with your TestFlight public beta link -->
+            <a href="https://testflight.apple.com/join/XXXXXXXX" class="nav-cta">Join the beta</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-copy">
+                <span class="kicker">Solar · Battery · Grid</span>
+                <h1>Know what your energy <span class="accent">really costs.</span></h1>
+                <p class="lead">Corrente reads real circuit-level usage from your Basis switchboard and nets out your own solar and battery — so the cost you see is the cost you actually pay.</p>
+                <div class="hero-actions">
+                    <!-- TODO: replace with your TestFlight public beta link -->
+                    <a href="https://testflight.apple.com/join/XXXXXXXX" class="tf-badge">
+                        Join the TestFlight beta
+                    </a>
+                    <span class="price-line">Beta · iOS 26 · Free while testing</span>
+                </div>
+            </div>
+
+            <div class="flow" aria-hidden="true">
+                <span class="flow__node flow__node--solar">SOLAR</span>
+                <span class="flow__node flow__node--battery">BATT</span>
+                <span class="flow__node flow__node--grid">GRID</span>
+                <span class="flow__home">HOME</span>
+                <span class="flow__lane flow__lane--solar"></span>
+                <span class="flow__lane flow__lane--battery"></span>
+                <span class="flow__lane flow__lane--grid"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="spotlight band">
+            <div class="container">
+                <div class="spotlight-copy">
+                    <span class="kicker">The whole point</span>
+                    <h2>True cost, not a guess.</h2>
+                    <p>Most energy apps read a single meter and estimate the rest. Corrente takes real, per-circuit usage from your Basis switchboard and accounts for the energy your own solar and battery supplied — so every kilowatt-hour is priced against the grid rate you'd have actually paid, using your Basis retail plan's own peak, shoulder, and off-peak bands.</p>
+                </div>
+                <ul class="spotlight-list">
+                    <li><span>Per-circuit usage</span> straight from the Basis switchboard</li>
+                    <li><span>Solar &amp; battery attributed</span> before any kWh is billed to the grid</li>
+                    <li><span>Retail plan rates</span> across peak, shoulder, and off-peak</li>
+                    <li><span>Export credits &amp; amortized costs</span> for solar and battery capital</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">What it does</span>
+                    <h2>Features</h2>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h3>Live</h3>
+                        <p>Your home energy at a glance — an animated hub-and-spoke view of solar generation, battery charge and discharge, grid import and export, and home consumption in real time.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Energy History</h3>
+                        <p>Hourly, daily, monthly, and yearly bar charts with solar, battery, and grid attribution — see exactly where your energy came from.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Energy Costs</h3>
+                        <p>A stacked cost breakdown with your retail plan's peak, shoulder, and off-peak bands, standing charges, export credits, and amortized solar and battery costs — built from real circuit usage, not estimates.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Solar ROI</h3>
+                        <p>Return on investment for your solar PV system over its lifetime — total generation and export with an estimated payback period and remaining balance.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Switchboard</h3>
+                        <p>Per-circuit energy history and a ranked consumption list from your Basis switchboard — see which of your active circuits are really drawing power.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Subcircuit Drill-In</h3>
+                        <p>Tap into any circuit for its own time-series with period navigation, from a single day out to the full year.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sources band">
+            <div class="container">
+                <h2>Supported Sources</h2>
+                <p>Corrente connects to the systems you already have — and more are on the way.</p>
+                <div class="source-grid">
+                    <div class="source">
+                        <h3>Tesla Powerwall</h3>
+                        <p>Live status, energy history, battery state of charge, and Storm Mode.</p>
+                    </div>
+                    <div class="source">
+                        <h3>Basis Switchboard</h3>
+                        <p>Live circuit power, switchboard and subcircuit history, and your Basis retail plan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="privacy-note">
+            <div class="container">
+                <h2>Your data stays yours</h2>
+                <p>Corrente reads energy data only from the systems you connect, using each service's own sign-in. Your energy data is anonymised, tied only to your Corrente account — never sold, and never used for advertising.</p>
+                <p><a href="privacy-policy.html">Read the privacy policy →</a></p>
+            </div>
+        </section>
+
+        <section class="pricing band">
+            <div class="container">
+                <h2>Now in beta</h2>
+                <p>Corrente is currently in TestFlight beta and free to try while testing. Join in to help shape where it goes next.</p>
+                <div class="hero-actions">
+                    <!-- TODO: replace with your TestFlight public beta link -->
+                    <a href="https://testflight.apple.com/join/XXXXXXXX" class="tf-badge">
+                        Join the TestFlight beta
+                    </a>
+                    <span class="price-line">Requires iOS 26</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <!-- TODO: add Corrente's Mastodon handle
+                <a href="https://indieapps.space/@corrente" rel="me">Mastodon</a>
+                -->
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
