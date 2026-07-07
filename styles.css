@@ -208,7 +208,7 @@ img { display: block; max-width: 100%; }
     justify-self: center;
     width: 100%;
     max-width: 340px;
-    aspect-ratio: 1;
+    aspect-ratio: 780 / 760;
     background:
         radial-gradient(60% 60% at 50% 45%, rgba(72, 224, 139, 0.10), transparent 70%),
         var(--paper);
