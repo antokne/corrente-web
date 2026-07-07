@@ -211,7 +211,7 @@ img { display: block; max-width: 100%; }
     aspect-ratio: 780 / 760;
     background:
         radial-gradient(60% 60% at 50% 45%, rgba(72, 224, 139, 0.10), transparent 70%),
-        var(--paper);
+        #000;
     border: 1px solid var(--edge);
     border-radius: var(--radius);
     overflow: hidden;
