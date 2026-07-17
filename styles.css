@@ -435,6 +435,28 @@ img { display: block; max-width: 100%; }
 .privacy-note a { text-decoration: none; }
 .privacy-note a:hover { text-decoration: underline; }
 
+/* ---- Roadmap ---- */
+.roadmap {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.roadmap h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.roadmap p {
+    color: var(--muted);
+    max-width: 52ch;
+    margin: 0 auto 0.75rem;
+    font-size: 1.05rem;
+}
+
+.roadmap a { text-decoration: none; }
+.roadmap a:hover { text-decoration: underline; }
+
 /* ---- Pricing / CTA ---- */
 .pricing { padding: 4.5rem 0; text-align: center; }
 
@@ -546,5 +568,6 @@ footer a:hover { color: var(--clean); }
     .features,
     .pricing,
     .sources,
+    .roadmap,
     .privacy-note { padding: 3rem 0; }
 }
