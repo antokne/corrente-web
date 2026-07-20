@@ -406,6 +406,13 @@ img { display: block; max-width: 100%; }
     color: var(--paper);
 }
 
+.source h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.source h3 a:hover { color: var(--clean); }
+
 .source p {
     color: var(--muted);
     font-size: 0.95rem;
