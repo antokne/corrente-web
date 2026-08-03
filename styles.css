@@ -315,16 +315,70 @@ img { display: block; max-width: 100%; }
 
 .feature p { color: var(--muted); }
 
+.feature-link {
+    margin-top: 0.9rem;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+}
+
+.feature-link a {
+    color: var(--clean);
+    text-decoration: none;
+}
+
+.feature-link a:hover { text-decoration: underline; }
+
 /* ---- Showcase: real screenshots ---- */
 .showcase { padding: 4.5rem 0; }
 
+.shot-scroller {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.shot-nav {
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--edge);
+    background: var(--panel);
+    color: var(--paper);
+    font-size: 1.6rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, opacity 0.2s;
+}
+
+.shot-nav:hover { border-color: var(--clean); background: var(--edge); }
+.shot-nav:disabled { opacity: 0.35; pointer-events: none; }
+
+@media (max-width: 640px) {
+    .shot-nav { display: none; }
+}
+
 .shot-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    flex: 1;
+    min-width: 0;
+    display: flex;
     gap: 1.75rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--edge) transparent;
 }
 
 .shot {
+    flex: 0 0 clamp(210px, 24vw, 255px);
+    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
     gap: 0.9rem;
@@ -552,14 +606,31 @@ footer a:hover { color: var(--clean); }
 /* ---- Showcase footer link ---- */
 .showcase-more {
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     font-family: var(--font-mono);
     font-size: 0.9rem;
     letter-spacing: 0.02em;
 }
 
-.showcase-more a { text-decoration: none; }
-.showcase-more a:hover { text-decoration: underline; }
+.showcase-more a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--clean);
+    border-radius: 100px;
+    color: var(--clean);
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.showcase-more a:hover {
+    background: var(--clean);
+    color: var(--ink);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(72, 224, 139, 0.25);
+}
 
 /* ---- Feature detail page (long screenshot) ---- */
 .feature-hero .container { grid-template-columns: 1fr; }

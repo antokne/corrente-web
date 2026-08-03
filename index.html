@@ -46,7 +46,7 @@
             </div>
 
             <div class="hero-shot">
-                <img src="images/energy-flow.gif"
+                <img src="images/energy-flow-dark.gif"
                      alt="Corrente's live energy view — solar, battery, grid, and home connected in an animated hub-and-spoke flow."
                      width="780" height="760" loading="eager">
             </div>
@@ -78,28 +78,37 @@
                 </div>
                 <div class="feature-grid">
                     <div class="feature">
-                        <h3>Live</h3>
-                        <p>Your home energy at a glance — an animated hub-and-spoke view of solar generation, battery charge and discharge, grid import and export, and home consumption in real time.</p>
+                        <h3>Home Dashboard</h3>
+                        <p>A live, animated diagram of power moving between solar, battery, grid, and home — with your switchboard summary and Powerwall charge and state right below, plus a clear indicator when you're running off the grid.</p>
                     </div>
                     <div class="feature">
                         <h3>Energy History</h3>
-                        <p>Hourly, daily, monthly, and yearly bar charts with solar, battery, and grid attribution — see where your energy came from.</p>
+                        <p>Solar, home load, battery cycles, and grid import and export over time. Switch between hourly, daily, and monthly views, and step back through your history.</p>
                     </div>
                     <div class="feature">
                         <h3>Energy Costs</h3>
-                        <p>A stacked cost breakdown with your retail plan's peak, shoulder, and off-peak bands, standing charges, export credits, and amortised solar and battery costs.</p>
+                        <p>A stacked view of exactly what makes up your spend — peak, shoulder, and off-peak tiers priced correctly, with what appears on your bill alongside the real cost.</p>
                     </div>
                     <div class="feature">
-                        <h3>Solar ROI</h3>
-                        <p>Return on investment for your solar PV system over its lifetime — total generation and export with an estimated payback period and remaining balance.</p>
+                        <h3>Savings &amp; Solar ROI</h3>
+                        <p>See the value your solar and battery deliver versus buying from the grid — and track your solar investment paying itself back over time.</p>
+                        <p class="feature-link"><a href="prediction.html">Planning a system? See the Projection screen →</a></p>
                     </div>
                     <div class="feature">
-                        <h3>Switchboard</h3>
-                        <p>Per-circuit energy history and a ranked consumption list from your Basis switchboard — see which of your active circuits are drawing the most power.</p>
+                        <h3>Live Switchboard</h3>
+                        <p>Every circuit's power, voltage, current, and share of the load — with your own custom circuit labels, synced across the app.</p>
                     </div>
                     <div class="feature">
-                        <h3>Subcircuit Drill-In</h3>
-                        <p>Tap into any circuit for its own time-series with period navigation, from a single day out to the full year.</p>
+                        <h3>Per-Circuit Detail</h3>
+                        <p>See which circuits use the most over any period and attribute real dollar cost down to individual circuits, with MCB, RCD, arc-fault, and temperature status in plain language.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Automations</h3>
+                        <p>Rules driven by schedules, battery levels, and free-power windows. Start from a template, then fine-tune triggers, conditions, and actions — automatically set your Powerwall reserve and mode, or suspend and resume circuits.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Feedback &amp; Notifications</h3>
+                        <p>Stay in the loop with notifications for what matters, and vote on what we build next.</p>
                     </div>
                 </div>
             </div>
@@ -112,43 +121,77 @@
                     <h2>See it in action</h2>
                     <p>Real screens, real data — pulled straight from the app.</p>
                 </div>
-                <div class="shot-grid">
+                <div class="shot-scroller">
+                    <button type="button" class="shot-nav prev" aria-label="Previous screenshots">&lsaquo;</button>
+                    <div class="shot-grid">
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/live.png" alt="Live energy view showing solar generating 5.23 kW, home consuming 3.50 kW, battery at 85%, and 530 W exporting to the grid, with the switchboard's active circuits listed below." width="1320" height="2868" loading="lazy">
+                            <img src="images/home-dark.png" alt="Home Stats screen with a live hub-and-spoke flow — 5.23 kW solar, 3.50 kW home, 1.20 kW battery at 85%, and 530 W to the grid — above a switchboard summary listing heat pump, hot water, and oven." width="1320" height="2868" loading="lazy">
                         </div>
-                        <figcaption><span>Live</span> — solar, battery, grid, and home at a glance.</figcaption>
+                        <figcaption><span>Home</span> — live flow and your switchboard summary in one glance.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/history.png" alt="Energy History with a Solar Generated weekly bar chart and totals for solar generated, home consumed, grid imported and exported, and battery charged and discharged." width="1320" height="2868" loading="lazy">
+                            <img src="images/history-dark.png" alt="Energy History with a weekly Solar Generated bar chart and totals for solar generated, home consumed, grid imported and exported, and battery charged and discharged." width="1320" height="2868" loading="lazy">
                         </div>
                         <figcaption><span>Energy History</span> — where every kilowatt-hour came from.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/costs.png" alt="Energy Costs for the day with a per-hour cost chart and an itemised breakdown of amortised solar and battery, peak and off-peak rates, daily charge, export credit, and savings." width="1320" height="2868" loading="lazy">
+                            <img src="images/costs-dark.png" alt="Energy Costs for the day with a per-hour stacked chart and a breakdown of amortised solar and battery, peak and off-peak rates, daily charge, export credit, and savings." width="1320" height="2868" loading="lazy">
                         </div>
-                        <figcaption><span>Energy Costs</span> — your energy costs, itemised to the cent.</figcaption>
+                        <figcaption><span>Energy Costs</span> — your spend itemised, bill versus true cost.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/roi.png" alt="Solar ROI screen showing 31.2 MWh total generated, self-consumed and export earnings, total savings of $8,567, system cost, and remaining balance." width="1320" height="2868" loading="lazy">
+                            <img src="images/roi-dark.png" alt="Solar ROI screen showing 31.2 MWh total generated, self-consumed and exported energy, import and export rates, total savings of $9,467, install cost, and balance remaining." width="1320" height="2868" loading="lazy">
                         </div>
-                        <figcaption><span>Solar ROI</span> — lifetime generation, earnings, and payback.</figcaption>
+                        <figcaption><span>Solar ROI</span> — the value your solar delivers, and its payback.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/switchboard-live.png" alt="Switchboard live view with a total power of 5.26 kW and a ranked list of circuits — heat pump, hot water, oven, lighting and more — each with live power and load." width="1320" height="2868" loading="lazy">
+                            <img src="images/switchboard-live-dark.png" alt="Switchboard live view with 5.26 kW total across 7 circuits, each showing live power, voltage, current, and share of the load — heat pump, hot water, oven, lighting and more." width="1320" height="2868" loading="lazy">
                         </div>
-                        <figcaption><span>Switchboard</span> — live per-circuit power across your board.</figcaption>
+                        <figcaption><span>Live Switchboard</span> — every circuit's power, voltage, current, and share.</figcaption>
                     </figure>
                     <figure class="shot">
                         <div class="shot-frame">
-                            <img src="images/switchboard-circuit.png" alt="Heat Pump circuit drill-in with a daily peak, shoulder, and off-peak bar chart and an energy breakdown by rate band." width="1320" height="2868" loading="lazy">
+                            <img src="images/switchboard-energy-dark.png" alt="Switchboard Energy for the day with a stacked solar, battery, grid, and export chart, an energy breakdown, and a per-circuit list showing each circuit's energy and cost." width="1320" height="2868" loading="lazy">
                         </div>
-                        <figcaption><span>Subcircuit Drill-In</span> — any circuit's own history, day to year.</figcaption>
+                        <figcaption><span>Per-Circuit Energy</span> — which circuits use the most, and what they cost.</figcaption>
                     </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/switchboard-circuit-dark.png" alt="Heat Pump circuit drill-in with a daily off-peak, shoulder, and peak bar chart and an energy breakdown by rate band." width="1320" height="2868" loading="lazy">
+                        </div>
+                        <figcaption><span>Subcircuit Drill-In</span> — any circuit's own history by rate band.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/circuit-safety-dark.png" alt="Hot Water circuit detail with 1.80 kW live power, voltage, current, and share, plus a safety section showing temperature, MCB circuit breaker, RCD safety switch, and arc-fault detection status." width="1320" height="2868" loading="lazy">
+                        </div>
+                        <figcaption><span>Circuit Safety</span> — MCB, RCD, arc-fault, and temperature in plain language.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/automations-dark.png" alt="Automations list with rules for free power starting, charging the battery off-peak, and alerting when the battery is low, each with an enable toggle." width="1320" height="2868" loading="lazy">
+                        </div>
+                        <figcaption><span>Automations</span> — rules driven by schedules, battery levels, and free power.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/automation-editor-dark.png" alt="Automation editor for a 'Free power ending soon' rule with a when setting, conditions such as certain days and quiet hours, and an optional notification title and message." width="1320" height="2868" loading="lazy">
+                        </div>
+                        <figcaption><span>Rule Builder</span> — start from a template, then fine-tune every trigger.</figcaption>
+                    </figure>
+                    <figure class="shot">
+                        <div class="shot-frame">
+                            <img src="images/feedback-dark.png" alt="Feedback screen listing feature requests and bugs with vote counts and status labels, above a completed section, letting you vote on what gets built next." width="1320" height="2868" loading="lazy">
+                        </div>
+                        <figcaption><span>Feedback</span> — vote on what we build next, and get notified when it ships.</figcaption>
+                    </figure>
+                    </div>
+                    <button type="button" class="shot-nav next" aria-label="More screenshots">&rsaquo;</button>
                 </div>
                 <p class="showcase-more"><a href="prediction.html">Planning a system? See the full Projection screen →</a></p>
             </div>
@@ -213,5 +256,61 @@
             </nav>
         </div>
     </footer>
+
+    <script>
+    // "See it in action" scroller: prev/next buttons plus auto-advance that backs off while the user interacts.
+    (function () {
+        const track = document.querySelector('.shot-grid');
+        if (!track) return;
+        const prev = document.querySelector('.shot-nav.prev');
+        const next = document.querySelector('.shot-nav.next');
+
+        function itemDelta() {
+            const item = track.querySelector('.shot');
+            if (!item) return 0;
+            const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+            return item.offsetWidth + gap;
+        }
+
+        function updateButtons() {
+            if (!prev || !next) return;
+            const max = track.scrollWidth - track.clientWidth;
+            prev.disabled = track.scrollLeft <= 2;
+            next.disabled = track.scrollLeft >= max - 2;
+        }
+
+        function scrollByItems(dir, wrap) {
+            const delta = itemDelta();
+            const max = track.scrollWidth - track.clientWidth;
+            let target = track.scrollLeft + dir * delta;
+            if (wrap && dir > 0 && track.scrollLeft >= max - 2) target = 0;
+            track.scrollTo({ left: Math.max(0, Math.min(target, max)), behavior: 'smooth' });
+        }
+
+        track.addEventListener('scroll', updateButtons, { passive: true });
+        window.addEventListener('resize', updateButtons);
+        updateButtons();
+
+        const STEP_MS = 4000, IDLE_MS = 6000;
+        let hovering = false, lastInteract = 0;
+        const touched = function () { lastInteract = Date.now(); };
+
+        if (prev) prev.addEventListener('click', function () { touched(); scrollByItems(-1, false); });
+        if (next) next.addEventListener('click', function () { touched(); scrollByItems(1, false); });
+
+        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            ['pointerdown', 'touchstart', 'wheel', 'keydown'].forEach(function (ev) {
+                track.addEventListener(ev, touched, { passive: true });
+            });
+            track.addEventListener('mouseenter', function () { hovering = true; });
+            track.addEventListener('mouseleave', function () { hovering = false; });
+
+            setInterval(function () {
+                if (hovering || document.hidden || Date.now() - lastInteract < IDLE_MS) return;
+                scrollByItems(1, true);
+            }, STEP_MS);
+        }
+    })();
+    </script>
 </body>
 </html>
