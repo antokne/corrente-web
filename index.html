@@ -18,7 +18,7 @@
     <meta name="twitter:description" content="Solar, battery, and grid in a single live view — with accurate, circuit-level cost.">
     <meta name="twitter:image" content="images/icon.png">
 
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
     <nav class="site-nav">
@@ -27,7 +27,11 @@
                 <img src="images/icon.png" alt="" width="30" height="30">
                 Corrente
             </a>
-            <a href="https://testflight.apple.com/join/Kmp21WzR" class="nav-cta">Join the beta</a>
+            <div class="nav-links">
+                <a href="circuit-cost.html" class="nav-link">How costs work</a>
+                <a href="prediction.html" class="nav-link">Projection</a>
+                <a href="https://testflight.apple.com/join/Kmp21WzR" class="nav-cta">Join the beta</a>
+            </div>
         </div>
     </nav>
 
@@ -36,7 +40,7 @@
             <div class="hero-copy">
                 <span class="kicker">Solar · Battery · Grid</span>
                 <h1>Per-circuit energy costs, <span class="accent">accounting for solar and battery.</span></h1>
-                <p class="lead">Corrente reads circuit-level usage from your <a href="https://www.wearebasis.com" target="_blank" rel="noopener">Basis switchboard</a> and factors in the solar you generate and the battery power you store — for a far clearer picture of what your energy costs.</p>
+                <p class="lead">Corrente reads circuit-level usage from your <a href="https://www.wearebasis.com" target="_blank" rel="noopener">Basis switchboard</a> and factors in the solar and battery, for a clear picture of your energy costs.</p>
                 <div class="hero-actions">
                     <a href="https://testflight.apple.com/join/Kmp21WzR" class="tf-badge">
                         Join the TestFlight beta
@@ -58,15 +62,24 @@
             <div class="container">
                 <div class="spotlight-copy">
                     <span class="kicker">Why it's different</span>
-                    <h2>Costs from real usage, not estimates.</h2>
-                    <p>Most energy apps read a single meter and estimate the rest. Corrente takes real, per-circuit usage from your Basis switchboard and accounts for the energy your own solar and battery supplied — so every kilowatt-hour is priced against the grid rate you would have paid, using your Basis retail plan's own peak, shoulder, and off-peak bands.</p>
+                    <h2>Costs calculated from real usage & generation.</h2>
+                    <p>Using the per-circuit usage the Basis switchboard provides, Corrente then allocates solar generation and battery output to each circuit so you get a better understanding of its cost, regardless of whether it's running on peak, shoulder, or off-peak power.</p>
+                    <p class="spotlight-cta"><a href="circuit-cost.html">How circuit costs work &rarr;</a></p>
                 </div>
                 <ul class="spotlight-list">
                     <li><span>Per-circuit usage</span> straight from the Basis switchboard</li>
-                    <li><span>Solar &amp; battery attributed</span> before any kWh is billed to the grid</li>
+                    <li><span>Solar &amp; battery allocated per circuit</span> before working out what the grid actually charges</li>
                     <li><span>Retail plan rates</span> across peak, shoulder, and off-peak</li>
                     <li><span>Export credits &amp; amortised costs</span> for solar and battery capital</li>
                 </ul>
+
+                <div class="spotlight-proof">
+                    <div class="sum-item"><span class="sum-label">E.G. one circuit, one day, at grid rates</span><span class="sum-value">$8.55</span></div>
+                    <span class="sum-op">=</span>
+                    <div class="sum-item"><span class="sum-label">On your bill</span><span class="sum-value grid">$4.96</span></div>
+                    <span class="sum-op">+</span>
+                    <div class="sum-item"><span class="sum-label">Solar &amp; battery savings</span><span class="sum-value clean">$3.58</span></div>
+                </div>
             </div>
         </section>
 
@@ -79,7 +92,7 @@
                 <div class="feature-grid">
                     <div class="feature">
                         <h3>Home Dashboard</h3>
-                        <p>A live, animated diagram of power moving between solar, battery, grid, and home — with your switchboard summary and Powerwall charge and state right below, plus a clear indicator when you're running off the grid.</p>
+                        <p>A live, animated diagram of power moving between solar, battery, grid, and home — with your switchboard summary and battery charge and state right below, plus a grid status indicator.</p>
                     </div>
                     <div class="feature">
                         <h3>Energy History</h3>
@@ -101,10 +114,11 @@
                     <div class="feature">
                         <h3>Per-Circuit Detail</h3>
                         <p>See which circuits use the most over any period and attribute real dollar cost down to individual circuits, with MCB, RCD, arc-fault, and temperature status in plain language.</p>
+                        <p class="feature-link"><a href="circuit-cost.html">How a circuit's cost is worked out →</a></p>
                     </div>
                     <div class="feature">
                         <h3>Automations</h3>
-                        <p>Rules driven by schedules, battery levels, and free-power windows. Start from a template, then fine-tune triggers, conditions, and actions — automatically set your Powerwall reserve and mode, or suspend and resume circuits.</p>
+                        <p>Rules driven by schedules, battery levels, and free-power windows. Start from a template, then fine-tune triggers, conditions, and actions — automatically set your battery reserve and mode, or suspend and resume circuits.</p>
                     </div>
                     <div class="feature">
                         <h3>Feedback &amp; Notifications</h3>
@@ -193,6 +207,7 @@
                     </div>
                     <button type="button" class="shot-nav next" aria-label="More screenshots">&rsaquo;</button>
                 </div>
+                <p class="showcase-more"><a href="circuit-cost.html">How every circuit's cost is worked out →</a></p>
                 <p class="showcase-more"><a href="prediction.html">Planning a system? See the full Projection screen →</a></p>
             </div>
         </section>
@@ -211,6 +226,16 @@
                         <p>Live circuit power, switchboard and subcircuit history, and your Basis retail plan.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="in-progress">
+            <div class="container">
+                <span class="kicker">In development</span>
+                <h2>Sigenergy support is being built</h2>
+                <p>Work has started on bringing Sigenergy systems into Corrente — live power, battery state, and the same per-circuit cost allocation the rest of the app runs on.</p>
+                <p>If you have a Sigenergy system and would like to help guide how it works, get in touch. Real installations and real feedback are what make the integration worth having.</p>
+                <p class="pill-link"><a href="mailto:antokne@gmail.com?subject=Sigenergy%20support%20in%20Corrente">Get in touch about Sigenergy &rarr;</a></p>
             </div>
         </section>
 

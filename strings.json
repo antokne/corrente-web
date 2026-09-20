@@ -1,0 +1,1344 @@
+{
+  "index.html": {
+    "html[1]/head[1]/title[1]": {
+      "where": "html > head > title",
+      "text": "Corrente — Your whole home's energy, in one view",
+      "was": "Corrente — Your whole home's energy, in one view"
+    },
+    "html[1]/head[1]/meta[3]@content": {
+      "where": "meta description",
+      "text": "Corrente brings your solar, battery, and grid into a single live view — with Energy History, accurate Energy Costs, and Solar ROI. Works with Tesla Powerwall and the Basis switchboard.",
+      "was": "Corrente brings your solar, battery, and grid into a single live view — with Energy History, accurate Energy Costs, and Solar ROI. Works with Tesla Powerwall and the Basis switchboard."
+    },
+    "html[1]/head[1]/meta[5]@content": {
+      "where": "meta og:title",
+      "text": "Corrente — Your whole home's energy, in one view",
+      "was": "Corrente — Your whole home's energy, in one view"
+    },
+    "html[1]/head[1]/meta[6]@content": {
+      "where": "meta og:description",
+      "text": "Solar, battery, and grid in a single live view — with accurate, circuit-level cost.",
+      "was": "Solar, battery, and grid in a single live view — with accurate, circuit-level cost."
+    },
+    "html[1]/head[1]/meta[10]@content": {
+      "where": "meta twitter:title",
+      "text": "Corrente — Your whole home's energy, in one view",
+      "was": "Corrente — Your whole home's energy, in one view"
+    },
+    "html[1]/head[1]/meta[11]@content": {
+      "where": "meta twitter:description",
+      "text": "Solar, battery, and grid in a single live view — with accurate, circuit-level cost.",
+      "was": "Solar, battery, and grid in a single live view — with accurate, circuit-level cost."
+    },
+    "html[1]/body[1]/nav[1]/div[1]/a[1]": {
+      "where": "nav > div > a",
+      "text": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente",
+      "was": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "How costs work",
+      "was": "How costs work"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[2]": {
+      "where": "div > div > a",
+      "text": "Projection",
+      "was": "Projection"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[3]": {
+      "where": "div > div > a",
+      "text": "Join the beta",
+      "was": "Join the beta"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Solar · Battery · Grid",
+      "was": "Solar · Battery · Grid"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/h1[1]": {
+      "where": "div > div > h1",
+      "text": "Per-circuit energy costs, <span class=\"accent\">accounting for solar and battery.</span>",
+      "was": "Per-circuit energy costs, <span class=\"accent\">accounting for solar and battery.</span>"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Corrente reads circuit-level usage from your <a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis switchboard</a> and factors in the solar and battery, for a clear picture of your energy costs.",
+      "was": "Corrente reads circuit-level usage from your <a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis switchboard</a> and factors in the solar and battery, for a clear picture of your energy costs."
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "Join the TestFlight beta",
+      "was": "Join the TestFlight beta"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Beta · iOS 18 · Free while testing",
+      "was": "Beta · iOS 18 · Free while testing"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[2]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Corrente's live energy view — solar, battery, grid, and home connected in an animated hub-and-spoke flow.",
+      "was": "Corrente's live energy view — solar, battery, grid, and home connected in an animated hub-and-spoke flow."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Why it's different",
+      "was": "Why it's different"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/h2[1]": {
+      "where": "div > div > h2",
+      "text": "Costs calculated from real usage & generation.",
+      "was": "Costs calculated from real usage & generation."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Using the per-circuit usage the Basis switchboard provides, Corrente then allocates solar generation and battery output to each circuit so you get a better understanding of its cost, regardless of whether it's running on peak, shoulder, or off-peak power.",
+      "was": "Using the per-circuit usage the Basis switchboard provides, Corrente then allocates solar generation and battery output to each circuit so you get a better understanding of its cost, regardless of whether it's running on peak, shoulder, or off-peak power."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/p[2]": {
+      "where": "div > div > p",
+      "text": "<a href=\"circuit-cost.html\">How circuit costs work &rarr;</a>",
+      "was": "<a href=\"circuit-cost.html\">How circuit costs work &rarr;</a>"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/ul[1]/li[1]": {
+      "where": "div > ul > li",
+      "text": "<span>Per-circuit usage</span> straight from the Basis switchboard",
+      "was": "<span>Per-circuit usage</span> straight from the Basis switchboard"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/ul[1]/li[2]": {
+      "where": "div > ul > li",
+      "text": "<span>Solar &amp; battery allocated per circuit</span> before working out what the grid actually charges",
+      "was": "<span>Solar &amp; battery allocated per circuit</span> before working out what the grid actually charges"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/ul[1]/li[3]": {
+      "where": "div > ul > li",
+      "text": "<span>Retail plan rates</span> across peak, shoulder, and off-peak",
+      "was": "<span>Retail plan rates</span> across peak, shoulder, and off-peak"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/ul[1]/li[4]": {
+      "where": "div > ul > li",
+      "text": "<span>Export credits &amp; amortised costs</span> for solar and battery capital",
+      "was": "<span>Export credits &amp; amortised costs</span> for solar and battery capital"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "E.G. one circuit, one day, at grid rates",
+      "was": "E.G. one circuit, one day, at grid rates"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/div[1]/span[2]": {
+      "where": "div > div > span",
+      "text": "$8.55",
+      "was": "$8.55"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/span[1]": {
+      "where": "div > div > span",
+      "text": "=",
+      "was": "="
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/div[2]/span[1]": {
+      "where": "div > div > span",
+      "text": "On your bill",
+      "was": "On your bill"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/div[2]/span[2]": {
+      "where": "div > div > span",
+      "text": "$4.96",
+      "was": "$4.96"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/span[2]": {
+      "where": "div > div > span",
+      "text": "+",
+      "was": "+"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/div[3]/span[1]": {
+      "where": "div > div > span",
+      "text": "Solar &amp; battery savings",
+      "was": "Solar &amp; battery savings"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/div[3]/span[2]": {
+      "where": "div > div > span",
+      "text": "$3.58",
+      "was": "$3.58"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "What it does",
+      "was": "What it does"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/h2[1]": {
+      "where": "div > div > h2",
+      "text": "Features",
+      "was": "Features"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[1]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Home Dashboard",
+      "was": "Home Dashboard"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "A live, animated diagram of power moving between solar, battery, grid, and home — with your switchboard summary and battery charge and state right below, plus a grid status indicator.",
+      "was": "A live, animated diagram of power moving between solar, battery, grid, and home — with your switchboard summary and battery charge and state right below, plus a grid status indicator."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[2]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Energy History",
+      "was": "Energy History"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[2]/p[1]": {
+      "where": "div > div > p",
+      "text": "Solar, home load, battery cycles, and grid import and export over time. Switch between hourly, daily, and monthly views, and step back through your history.",
+      "was": "Solar, home load, battery cycles, and grid import and export over time. Switch between hourly, daily, and monthly views, and step back through your history."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[3]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Energy Costs",
+      "was": "Energy Costs"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[3]/p[1]": {
+      "where": "div > div > p",
+      "text": "A stacked view of exactly what makes up your spend — peak, shoulder, and off-peak tiers priced correctly, with what appears on your bill alongside the real cost.",
+      "was": "A stacked view of exactly what makes up your spend — peak, shoulder, and off-peak tiers priced correctly, with what appears on your bill alongside the real cost."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[4]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Savings &amp; Solar ROI",
+      "was": "Savings &amp; Solar ROI"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[4]/p[1]": {
+      "where": "div > div > p",
+      "text": "See the value your solar and battery deliver versus buying from the grid — and track your solar investment paying itself back over time.",
+      "was": "See the value your solar and battery deliver versus buying from the grid — and track your solar investment paying itself back over time."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[4]/p[2]": {
+      "where": "div > div > p",
+      "text": "<a href=\"prediction.html\">Planning a system? See the Projection screen →</a>",
+      "was": "<a href=\"prediction.html\">Planning a system? See the Projection screen →</a>"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[5]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Live Switchboard",
+      "was": "Live Switchboard"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[5]/p[1]": {
+      "where": "div > div > p",
+      "text": "Every circuit's power, voltage, current, and share of the load — with your own custom circuit labels, synced across the app.",
+      "was": "Every circuit's power, voltage, current, and share of the load — with your own custom circuit labels, synced across the app."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[6]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Per-Circuit Detail",
+      "was": "Per-Circuit Detail"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[6]/p[1]": {
+      "where": "div > div > p",
+      "text": "See which circuits use the most over any period and attribute real dollar cost down to individual circuits, with MCB, RCD, arc-fault, and temperature status in plain language.",
+      "was": "See which circuits use the most over any period and attribute real dollar cost down to individual circuits, with MCB, RCD, arc-fault, and temperature status in plain language."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[6]/p[2]": {
+      "where": "div > div > p",
+      "text": "<a href=\"circuit-cost.html\">How a circuit's cost is worked out →</a>",
+      "was": "<a href=\"circuit-cost.html\">How a circuit's cost is worked out →</a>"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[7]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Automations",
+      "was": "Automations"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[7]/p[1]": {
+      "where": "div > div > p",
+      "text": "Rules driven by schedules, battery levels, and free-power windows. Start from a template, then fine-tune triggers, conditions, and actions — automatically set your battery reserve and mode, or suspend and resume circuits.",
+      "was": "Rules driven by schedules, battery levels, and free-power windows. Start from a template, then fine-tune triggers, conditions, and actions — automatically set your battery reserve and mode, or suspend and resume circuits."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[8]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Feedback &amp; Notifications",
+      "was": "Feedback &amp; Notifications"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/div[8]/p[1]": {
+      "where": "div > div > p",
+      "text": "Stay in the loop with notifications for what matters, and vote on what we build next.",
+      "was": "Stay in the loop with notifications for what matters, and vote on what we build next."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "A closer look",
+      "was": "A closer look"
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[1]/h2[1]": {
+      "where": "div > div > h2",
+      "text": "See it in action",
+      "was": "See it in action"
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Real screens, real data — pulled straight from the app.",
+      "was": "Real screens, real data — pulled straight from the app."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/button[1]": {
+      "where": "div > div > button",
+      "text": "&lsaquo;",
+      "was": "&lsaquo;"
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[1]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Home Stats screen with a live hub-and-spoke flow — 5.23 kW solar, 3.50 kW home, 1.20 kW battery at 85%, and 530 W to the grid — above a switchboard summary listing heat pump, hot water, and oven.",
+      "was": "Home Stats screen with a live hub-and-spoke flow — 5.23 kW solar, 3.50 kW home, 1.20 kW battery at 85%, and 530 W to the grid — above a switchboard summary listing heat pump, hot water, and oven."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[1]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Home</span> — live flow and your switchboard summary in one glance.",
+      "was": "<span>Home</span> — live flow and your switchboard summary in one glance."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[2]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Energy History with a weekly Solar Generated bar chart and totals for solar generated, home consumed, grid imported and exported, and battery charged and discharged.",
+      "was": "Energy History with a weekly Solar Generated bar chart and totals for solar generated, home consumed, grid imported and exported, and battery charged and discharged."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[2]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Energy History</span> — where every kilowatt-hour came from.",
+      "was": "<span>Energy History</span> — where every kilowatt-hour came from."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[3]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Energy Costs for the day with a per-hour stacked chart and a breakdown of amortised solar and battery, peak and off-peak rates, daily charge, export credit, and savings.",
+      "was": "Energy Costs for the day with a per-hour stacked chart and a breakdown of amortised solar and battery, peak and off-peak rates, daily charge, export credit, and savings."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[3]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Energy Costs</span> — your spend itemised, bill versus true cost.",
+      "was": "<span>Energy Costs</span> — your spend itemised, bill versus true cost."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[4]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Solar ROI screen showing 31.2 MWh total generated, self-consumed and exported energy, import and export rates, total savings of $9,467, install cost, and balance remaining.",
+      "was": "Solar ROI screen showing 31.2 MWh total generated, self-consumed and exported energy, import and export rates, total savings of $9,467, install cost, and balance remaining."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[4]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Solar ROI</span> — the value your solar delivers, and its payback.",
+      "was": "<span>Solar ROI</span> — the value your solar delivers, and its payback."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[5]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Switchboard live view with 5.26 kW total across 7 circuits, each showing live power, voltage, current, and share of the load — heat pump, hot water, oven, lighting and more.",
+      "was": "Switchboard live view with 5.26 kW total across 7 circuits, each showing live power, voltage, current, and share of the load — heat pump, hot water, oven, lighting and more."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[5]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Live Switchboard</span> — every circuit's power, voltage, current, and share.",
+      "was": "<span>Live Switchboard</span> — every circuit's power, voltage, current, and share."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[6]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Switchboard Energy for the day with a stacked solar, battery, grid, and export chart, an energy breakdown, and a per-circuit list showing each circuit's energy and cost.",
+      "was": "Switchboard Energy for the day with a stacked solar, battery, grid, and export chart, an energy breakdown, and a per-circuit list showing each circuit's energy and cost."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[6]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Per-Circuit Energy</span> — which circuits use the most, and what they cost.",
+      "was": "<span>Per-Circuit Energy</span> — which circuits use the most, and what they cost."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[7]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Heat Pump circuit drill-in with a daily off-peak, shoulder, and peak bar chart and an energy breakdown by rate band.",
+      "was": "Heat Pump circuit drill-in with a daily off-peak, shoulder, and peak bar chart and an energy breakdown by rate band."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[7]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Subcircuit Drill-In</span> — any circuit's own history by rate band.",
+      "was": "<span>Subcircuit Drill-In</span> — any circuit's own history by rate band."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[8]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Hot Water circuit detail with 1.80 kW live power, voltage, current, and share, plus a safety section showing temperature, MCB circuit breaker, RCD safety switch, and arc-fault detection status.",
+      "was": "Hot Water circuit detail with 1.80 kW live power, voltage, current, and share, plus a safety section showing temperature, MCB circuit breaker, RCD safety switch, and arc-fault detection status."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[8]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Circuit Safety</span> — MCB, RCD, arc-fault, and temperature in plain language.",
+      "was": "<span>Circuit Safety</span> — MCB, RCD, arc-fault, and temperature in plain language."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[9]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Automations list with rules for free power starting, charging the battery off-peak, and alerting when the battery is low, each with an enable toggle.",
+      "was": "Automations list with rules for free power starting, charging the battery off-peak, and alerting when the battery is low, each with an enable toggle."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[9]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Automations</span> — rules driven by schedules, battery levels, and free power.",
+      "was": "<span>Automations</span> — rules driven by schedules, battery levels, and free power."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[10]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Automation editor for a 'Free power ending soon' rule with a when setting, conditions such as certain days and quiet hours, and an optional notification title and message.",
+      "was": "Automation editor for a 'Free power ending soon' rule with a when setting, conditions such as certain days and quiet hours, and an optional notification title and message."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[10]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Rule Builder</span> — start from a template, then fine-tune every trigger.",
+      "was": "<span>Rule Builder</span> — start from a template, then fine-tune every trigger."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[11]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Feedback screen listing feature requests and bugs with vote counts and status labels, above a completed section, letting you vote on what gets built next.",
+      "was": "Feedback screen listing feature requests and bugs with vote counts and status labels, above a completed section, letting you vote on what gets built next."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/div[1]/figure[11]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Feedback</span> — vote on what we build next, and get notified when it ships.",
+      "was": "<span>Feedback</span> — vote on what we build next, and get notified when it ships."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[2]/button[2]": {
+      "where": "div > div > button",
+      "text": "&rsaquo;",
+      "was": "&rsaquo;"
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "<a href=\"circuit-cost.html\">How every circuit's cost is worked out →</a>",
+      "was": "<a href=\"circuit-cost.html\">How every circuit's cost is worked out →</a>"
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/p[2]": {
+      "where": "section > div > p",
+      "text": "<a href=\"prediction.html\">Planning a system? See the full Projection screen →</a>",
+      "was": "<a href=\"prediction.html\">Planning a system? See the full Projection screen →</a>"
+    },
+    "html[1]/body[1]/main[1]/section[4]/div[1]/h2[1]": {
+      "where": "section > div > h2",
+      "text": "Supported Sources",
+      "was": "Supported Sources"
+    },
+    "html[1]/body[1]/main[1]/section[4]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Corrente connects to the systems you already have — and more are on the way.",
+      "was": "Corrente connects to the systems you already have — and more are on the way."
+    },
+    "html[1]/body[1]/main[1]/section[4]/div[1]/div[1]/div[1]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Tesla Powerwall",
+      "was": "Tesla Powerwall"
+    },
+    "html[1]/body[1]/main[1]/section[4]/div[1]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Live status, energy history, battery state of charge, and Storm Mode.",
+      "was": "Live status, energy history, battery state of charge, and Storm Mode."
+    },
+    "html[1]/body[1]/main[1]/section[4]/div[1]/div[1]/div[2]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "<a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis Switchboard</a>",
+      "was": "<a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis Switchboard</a>"
+    },
+    "html[1]/body[1]/main[1]/section[4]/div[1]/div[1]/div[2]/p[1]": {
+      "where": "div > div > p",
+      "text": "Live circuit power, switchboard and subcircuit history, and your Basis retail plan.",
+      "was": "Live circuit power, switchboard and subcircuit history, and your Basis retail plan."
+    },
+    "html[1]/body[1]/main[1]/section[5]/div[1]/span[1]": {
+      "where": "section > div > span",
+      "text": "In development",
+      "was": "In development"
+    },
+    "html[1]/body[1]/main[1]/section[5]/div[1]/h2[1]": {
+      "where": "section > div > h2",
+      "text": "Sigenergy support is being built",
+      "was": "Sigenergy support is being built"
+    },
+    "html[1]/body[1]/main[1]/section[5]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Work has started on bringing Sigenergy systems into Corrente — live power, battery state, and the same per-circuit cost allocation the rest of the app runs on.",
+      "was": "Work has started on bringing Sigenergy systems into Corrente — live power, battery state, and the same per-circuit cost allocation the rest of the app runs on."
+    },
+    "html[1]/body[1]/main[1]/section[5]/div[1]/p[2]": {
+      "where": "section > div > p",
+      "text": "If you have a Sigenergy system and would like to help guide how it works, get in touch. Real installations and real feedback are what make the integration worth having.",
+      "was": "If you have a Sigenergy system and would like to help guide how it works, get in touch. Real installations and real feedback are what make the integration worth having."
+    },
+    "html[1]/body[1]/main[1]/section[5]/div[1]/p[3]": {
+      "where": "section > div > p",
+      "text": "<a href=\"mailto:antokne@gmail.com?subject=Sigenergy%20support%20in%20Corrente\">Get in touch about Sigenergy &rarr;</a>",
+      "was": "<a href=\"mailto:antokne@gmail.com?subject=Sigenergy%20support%20in%20Corrente\">Get in touch about Sigenergy &rarr;</a>"
+    },
+    "html[1]/body[1]/main[1]/section[6]/div[1]/h2[1]": {
+      "where": "section > div > h2",
+      "text": "What's next",
+      "was": "What's next"
+    },
+    "html[1]/body[1]/main[1]/section[6]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Corrente is evolving fast. See what we're building, what's in progress, and what's planned — from new sources to deeper cost insights.",
+      "was": "Corrente is evolving fast. See what we're building, what's in progress, and what's planned — from new sources to deeper cost insights."
+    },
+    "html[1]/body[1]/main[1]/section[6]/div[1]/p[2]": {
+      "where": "section > div > p",
+      "text": "<a href=\"https://corrente.antokne.org/roadmap\" target=\"_blank\" rel=\"noopener\">View the roadmap →</a>",
+      "was": "<a href=\"https://corrente.antokne.org/roadmap\" target=\"_blank\" rel=\"noopener\">View the roadmap →</a>"
+    },
+    "html[1]/body[1]/main[1]/section[7]/div[1]/h2[1]": {
+      "where": "section > div > h2",
+      "text": "Your data stays yours",
+      "was": "Your data stays yours"
+    },
+    "html[1]/body[1]/main[1]/section[7]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Corrente reads energy data only from the systems you connect, using each service's own sign-in. Your energy data is anonymised, tied only to your Corrente account — never sold, and never used for advertising.",
+      "was": "Corrente reads energy data only from the systems you connect, using each service's own sign-in. Your energy data is anonymised, tied only to your Corrente account — never sold, and never used for advertising."
+    },
+    "html[1]/body[1]/main[1]/section[7]/div[1]/p[2]": {
+      "where": "section > div > p",
+      "text": "<a href=\"privacy-policy.html\">Read the privacy policy →</a>",
+      "was": "<a href=\"privacy-policy.html\">Read the privacy policy →</a>"
+    },
+    "html[1]/body[1]/main[1]/section[8]/div[1]/h2[1]": {
+      "where": "section > div > h2",
+      "text": "Now in beta",
+      "was": "Now in beta"
+    },
+    "html[1]/body[1]/main[1]/section[8]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Corrente is currently in TestFlight beta and free to try while testing. Join the beta. Try it out and let us know what you think.",
+      "was": "Corrente is currently in TestFlight beta and free to try while testing. Join the beta. Try it out and let us know what you think."
+    },
+    "html[1]/body[1]/main[1]/section[8]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "Join the TestFlight beta",
+      "was": "Join the TestFlight beta"
+    },
+    "html[1]/body[1]/main[1]/section[8]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Requires iOS 18",
+      "was": "Requires iOS 18"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[1]": {
+      "where": "div > nav > a",
+      "text": "About",
+      "was": "About"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[2]": {
+      "where": "div > nav > a",
+      "text": "Contact",
+      "was": "Contact"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[3]": {
+      "where": "div > nav > a",
+      "text": "Privacy Policy",
+      "was": "Privacy Policy"
+    }
+  },
+  "circuit-cost.html": {
+    "html[1]/head[1]/title[1]": {
+      "where": "html > head > title",
+      "text": "Corrente — How circuit costs work",
+      "was": "Corrente — How circuit costs work"
+    },
+    "html[1]/head[1]/meta[3]@content": {
+      "where": "meta description",
+      "text": "Corrente shares your solar and battery across every circuit in proportion to what each one was drawing — so each circuit's cost is calculated by where its energy came from, not just by the tariff band it ran in.",
+      "was": "Corrente shares your solar and battery across every circuit in proportion to what each one was drawing — so each circuit's cost is calculated by where its energy came from, not just by the tariff band it ran in."
+    },
+    "html[1]/head[1]/meta[5]@content": {
+      "where": "meta og:title",
+      "text": "Corrente — How circuit costs work",
+      "was": "Corrente — How circuit costs work"
+    },
+    "html[1]/head[1]/meta[6]@content": {
+      "where": "meta og:description",
+      "text": "Solar and battery shared across every circuit, in proportion — so each circuit's cost reflects where its energy really came from.",
+      "was": "Solar and battery shared across every circuit, in proportion — so each circuit's cost reflects where its energy really came from."
+    },
+    "html[1]/head[1]/meta[10]@content": {
+      "where": "meta twitter:title",
+      "text": "Corrente — How circuit costs work",
+      "was": "Corrente — How circuit costs work"
+    },
+    "html[1]/head[1]/meta[11]@content": {
+      "where": "meta twitter:description",
+      "text": "Solar and battery shared across every circuit, in proportion — so each circuit's cost reflects where its energy really came from.",
+      "was": "Solar and battery shared across every circuit, in proportion — so each circuit's cost reflects where its energy really came from."
+    },
+    "html[1]/body[1]/nav[1]/div[1]/a[1]": {
+      "where": "nav > div > a",
+      "text": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente",
+      "was": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "How costs work",
+      "was": "How costs work"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[2]": {
+      "where": "div > div > a",
+      "text": "Projection",
+      "was": "Projection"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[3]": {
+      "where": "div > div > a",
+      "text": "Join the beta",
+      "was": "Join the beta"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "&larr; Back to Corrente",
+      "was": "&larr; Back to Corrente"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "The heart of Corrente",
+      "was": "The heart of Corrente"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/h1[1]": {
+      "where": "div > div > h1",
+      "text": "Every circuit's cost, calculated by <span class=\"accent\">where its energy came from.</span>",
+      "was": "Every circuit's cost, calculated by <span class=\"accent\">where its energy came from.</span>"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Your <a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis switchboard</a> measures every circuit in your home. Corrente adds your solar and battery on top of that: it shares the solar you generated and the battery you discharged across those circuits, in proportion to what each one was drawing at the time. That step provides a more realistic estimate of what each circuit costs to run.",
+      "was": "Your <a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis switchboard</a> measures every circuit in your home. Corrente adds your solar and battery on top of that: it shares the solar you generated and the battery you discharged across those circuits, in proportion to what each one was drawing at the time. That step provides a more realistic estimate of what each circuit costs to run."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "The problem",
+      "was": "The problem"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Solar usually isn't allocated per circuit",
+      "was": "Solar usually isn't allocated per circuit"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Unless your solar is wired to its own sub-circuit, your panels feed the whole house at once — so the switchboard allocates every kilowatt-hour to grid usage at your plan's time-of-use rates, as if it had all been imported.",
+      "was": "Unless your solar is wired to its own sub-circuit, your panels feed the whole house at once — so the switchboard allocates every kilowatt-hour to grid usage at your plan's time-of-use rates, as if it had all been imported."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/span[1]": {
+      "where": "div > div > span",
+      "text": "Proportional allocation",
+      "was": "Proportional allocation"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Solar and battery, allocated in proportion",
+      "was": "Solar and battery, allocated in proportion"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/p[1]": {
+      "where": "div > div > p",
+      "text": "For every interval of the day, Corrente works out how much of the home's total load your own generation covered, then gives each circuit that same share, weighted by what the circuit actually drew. A circuit pulling a third of the load at midday gets a third of the solar.",
+      "was": "For every interval of the day, Corrente works out how much of the home's total load your own generation covered, then gives each circuit that same share, weighted by what the circuit actually drew. A circuit pulling a third of the load at midday gets a third of the solar."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[3]/span[1]": {
+      "where": "div > div > span",
+      "text": "By source",
+      "was": "By source"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[3]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Every source, not just the tariff",
+      "was": "Every source, not just the tariff"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[3]/p[1]": {
+      "where": "div > div > p",
+      "text": "Each interval is split by source, not just by time of day. The chart shows it directly: grid when you're importing, solar when the roof is carrying the load, battery when it's coming out of storage.",
+      "was": "Each interval is split by source, not just by time of day. The chart shows it directly: grid when you're importing, solar when the roof is carrying the load, battery when it's coming out of storage."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[4]/span[1]": {
+      "where": "div > div > span",
+      "text": "Amortised solar & battery",
+      "was": "Amortised solar & battery"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[4]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "The amortised cost of solar and battery",
+      "was": "The amortised cost of solar and battery"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[4]/p[1]": {
+      "where": "div > div > p",
+      "text": "Corrente lets you enter your own amortised cost per kWh for solar and battery, calculated however you like — for example, install cost (plus a replacement inverter, since they typically only last around 10 years) divided by expected generation over a 20-year lifespan. That gives an honest running cost instead of treating self-generated energy as free.",
+      "was": "Corrente lets you enter your own amortised cost per kWh for solar and battery, calculated however you like — for example, install cost (plus a replacement inverter, since they typically only last around 10 years) divided by expected generation over a 20-year lifespan. That gives an honest running cost instead of treating self-generated energy as free."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[5]/span[1]": {
+      "where": "div > div > span",
+      "text": "Two numbers that matter",
+      "was": "Two numbers that matter"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[5]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Estimated bill cost and savings, per circuit",
+      "was": "Estimated bill cost and savings, per circuit"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[5]/p[1]": {
+      "where": "div > div > p",
+      "text": "<strong>Bill Cost</strong> is what your retailer will actually charge for that circuit — only the kWh that came from the grid, at your plan's own peak, shoulder, and off-peak rates. <strong>Savings</strong> is what you avoided paying by running on your own generation instead. Together they tell you what a circuit costs and what your system is doing for it.",
+      "was": "<strong>Bill Cost</strong> is what your retailer will actually charge for that circuit — only the kWh that came from the grid, at your plan's own peak, shoulder, and off-peak rates. <strong>Savings</strong> is what you avoided paying by running on your own generation instead. Together they tell you what a circuit costs and what your system is doing for it."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[6]/span[1]": {
+      "where": "div > div > span",
+      "text": "Worked example",
+      "was": "Worked example"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[6]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "A day on one circuit",
+      "was": "A day on one circuit"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[6]/p[1]": {
+      "where": "div > div > p",
+      "text": "The screen alongside is a single circuit — an EV charger — on Wednesday 5 August. It charges overnight on off-peak grid power, then tops up again around midday while solar is generating.",
+      "was": "The screen alongside is a single circuit — an EV charger — on Wednesday 5 August. It charges overnight on off-peak grid power, then tops up again around midday while solar is generating."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[6]/p[2]": {
+      "where": "div > div > p",
+      "text": "<strong>25&nbsp;kWh</strong> of off-peak grid at <strong>$4.96</strong>, <strong>8.6&nbsp;kWh</strong> of solar amortised at <strong>$0.77</strong>, and <strong>351&nbsp;Wh</strong> of battery at <strong>$0.14</strong> — a bill cost of <strong>$4.96</strong> and <strong>$3.58</strong> saved.",
+      "was": "<strong>25&nbsp;kWh</strong> of off-peak grid at <strong>$4.96</strong>, <strong>8.6&nbsp;kWh</strong> of solar amortised at <strong>$0.77</strong>, and <strong>351&nbsp;Wh</strong> of battery at <strong>$0.14</strong> — a bill cost of <strong>$4.96</strong> and <strong>$3.58</strong> saved."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[7]/span[1]": {
+      "where": "div > div > span",
+      "text": "Everything in the switchboard",
+      "was": "Everything in the switchboard"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[7]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Hot water, heat pump, oven, lighting",
+      "was": "Hot water, heat pump, oven, lighting"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[7]/p[1]": {
+      "where": "div > div > p",
+      "text": "The same allocation runs across every circuit you have, over any period — day, week, month, or year. It's what makes it possible to say which appliance is genuinely expensive to run in your house, and which one your solar is already paying for.",
+      "was": "The same allocation runs across every circuit you have, over any period — day, week, month, or year. It's what makes it possible to say which appliance is genuinely expensive to run in your house, and which one your solar is already paying for."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[7]/p[2]": {
+      "where": "div > div > p",
+      "text": "TODO: please remove",
+      "was": "TODO: please remove"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Corrente's circuit detail for an EV Charger on Wednesday 5 August 2026: an hourly chart split into off-peak, peak, battery, and solar, with an energy breakdown showing 8.6 kWh solar amortised at $0.77, 351 Wh battery at $0.14, 8.2 Wh peak at $0.00, 25 kWh off-peak at $4.96, savings of $3.58, and a bill cost of $4.96 for 25 kWh.",
+      "was": "Corrente's circuit detail for an EV Charger on Wednesday 5 August 2026: an hourly chart split into off-peak, peak, battery, and solar, with an energy breakdown showing 8.6 kWh solar amortised at $0.77, 351 Wh battery at $0.14, 8.2 Wh peak at $0.00, 25 kWh off-peak at $4.96, savings of $3.58, and a bill cost of $4.96 for 25 kWh."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Same circuit, same day",
+      "was": "Same circuit, same day"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/h2[1]": {
+      "where": "div > div > h2",
+      "text": "What per-circuit allocation adds",
+      "was": "What per-circuit allocation adds"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Basis generates per-circuit measurement. Corrente adds your solar, battery, and retail plan on top of it — two views of the same day, answering two different questions.",
+      "was": "Basis generates per-circuit measurement. Corrente adds your solar, battery, and retail plan on top of it — two views of the same day, answering two different questions."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/figure[1]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Basis Home cost chart for one circuit on 5 August: hourly bars coloured as peak and off-peak, totalling $8.55 for the day.",
+      "was": "Basis Home cost chart for one circuit on 5 August: hourly bars coloured as peak and off-peak, totalling $8.55 for the day."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/figure[1]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Basis Home — cost by rate band</span>\n                            <p>Every hour the circuit ran, priced against the grid tariff in force at the time. Total for the day: <strong>$8.55</strong> — the right answer to \"what would this have cost from the grid?\", but it can't correctly allocate solar generation unless solar is wired to its own circuit.</p>",
+      "was": "<span>Basis Home — cost by rate band</span>\n                            <p>Every hour the circuit ran, priced against the grid tariff in force at the time. Total for the day: <strong>$8.55</strong> — the right answer to \"what would this have cost from the grid?\", but it can't correctly allocate solar generation unless solar is wired to its own circuit.</p>"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/figure[2]/div[1]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Corrente's chart for the same circuit and day: overnight bars in off-peak blue, midday bars in solar amber with a slice of battery magenta.",
+      "was": "Corrente's chart for the same circuit and day: overnight bars in off-peak blue, midday bars in solar amber with a slice of battery magenta."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[2]/figure[2]/figcaption[1]": {
+      "where": "div > figure > figcaption",
+      "text": "<span>Corrente — cost by source</span>\n                            <p>The same day with your own generation accounted for. Corrente splits that $8.55 into <strong>$4.96</strong> you'll actually be billed and <strong>$3.58</strong> your solar and battery covered.</p>",
+      "was": "<span>Corrente — cost by source</span>\n                            <p>The same day with your own generation accounted for. Corrente splits that $8.55 into <strong>$4.96</strong> you'll actually be billed and <strong>$3.58</strong> your solar and battery covered.</p>"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Grid-rate cost",
+      "was": "Grid-rate cost"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/div[1]/span[2]": {
+      "where": "div > div > span",
+      "text": "$8.55",
+      "was": "$8.55"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/span[1]": {
+      "where": "div > div > span",
+      "text": "=",
+      "was": "="
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/div[2]/span[1]": {
+      "where": "div > div > span",
+      "text": "On your bill",
+      "was": "On your bill"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/div[2]/span[2]": {
+      "where": "div > div > span",
+      "text": "$4.96",
+      "was": "$4.96"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/span[2]": {
+      "where": "div > div > span",
+      "text": "+",
+      "was": "+"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/div[3]/span[1]": {
+      "where": "div > div > span",
+      "text": "Solar &amp; battery savings",
+      "was": "Solar &amp; battery savings"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[3]/div[3]/span[2]": {
+      "where": "div > div > span",
+      "text": "$3.58",
+      "was": "$3.58"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Figures from a real day on a Basis switchboard with rooftop solar and a home battery. Corrente is an independent app built on the Basis platform.",
+      "was": "Figures from a real day on a Basis switchboard with rooftop solar and a home battery. Corrente is an independent app built on the Basis platform."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/h2[1]": {
+      "where": "section > div > h2",
+      "text": "See it on your own switchboard",
+      "was": "See it on your own switchboard"
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Connect your Basis system and your solar, and every circuit in your home gets the same treatment. Free in the TestFlight beta.",
+      "was": "Connect your Basis system and your solar, and every circuit in your home gets the same treatment. Free in the TestFlight beta."
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "Join the TestFlight beta",
+      "was": "Join the TestFlight beta"
+    },
+    "html[1]/body[1]/main[1]/section[3]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Requires iOS 18",
+      "was": "Requires iOS 18"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[1]": {
+      "where": "div > nav > a",
+      "text": "About",
+      "was": "About"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[2]": {
+      "where": "div > nav > a",
+      "text": "Contact",
+      "was": "Contact"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[3]": {
+      "where": "div > nav > a",
+      "text": "Privacy Policy",
+      "was": "Privacy Policy"
+    }
+  },
+  "prediction.html": {
+    "html[1]/head[1]/title[1]": {
+      "where": "html > head > title",
+      "text": "Corrente — Projection",
+      "was": "Corrente — Projection"
+    },
+    "html[1]/head[1]/meta[3]@content": {
+      "where": "meta description",
+      "text": "Corrente's Projection screen predicts the return on your solar investment from five inputs — generation, years, self-consumption, and your import and export rates — plus the property value uplift solar can add.",
+      "was": "Corrente's Projection screen predicts the return on your solar investment from five inputs — generation, years, self-consumption, and your import and export rates — plus the property value uplift solar can add."
+    },
+    "html[1]/head[1]/meta[5]@content": {
+      "where": "meta og:title",
+      "text": "Corrente — Projection",
+      "was": "Corrente — Projection"
+    },
+    "html[1]/head[1]/meta[6]@content": {
+      "where": "meta og:description",
+      "text": "Predict the return on your solar investment — savings, payback, and property value uplift.",
+      "was": "Predict the return on your solar investment — savings, payback, and property value uplift."
+    },
+    "html[1]/head[1]/meta[10]@content": {
+      "where": "meta twitter:title",
+      "text": "Corrente — Projection",
+      "was": "Corrente — Projection"
+    },
+    "html[1]/head[1]/meta[11]@content": {
+      "where": "meta twitter:description",
+      "text": "Predict the return on your solar investment — savings, payback, and property value uplift.",
+      "was": "Predict the return on your solar investment — savings, payback, and property value uplift."
+    },
+    "html[1]/body[1]/nav[1]/div[1]/a[1]": {
+      "where": "nav > div > a",
+      "text": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente",
+      "was": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "How costs work",
+      "was": "How costs work"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[2]": {
+      "where": "div > div > a",
+      "text": "Projection",
+      "was": "Projection"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[3]": {
+      "where": "div > div > a",
+      "text": "Join the beta",
+      "was": "Join the beta"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "&larr; Back to Corrente",
+      "was": "&larr; Back to Corrente"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Plan ahead",
+      "was": "Plan ahead"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/h1[1]": {
+      "where": "div > div > h1",
+      "text": "Projection — <span class=\"accent\">predict the return on your solar investment.</span>",
+      "was": "Projection — <span class=\"accent\">predict the return on your solar investment.</span>"
+    },
+    "html[1]/body[1]/header[1]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "See what your solar system will save you, and when it pays for itself. Set five simple numbers and Corrente works out the rest — no system needed.",
+      "was": "See what your solar system will save you, and when it pays for itself. Set five simple numbers and Corrente works out the rest — no system needed."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Five numbers",
+      "was": "Five numbers"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Move the sliders, see the answer",
+      "was": "Move the sliders, see the answer"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[1]/p[1]": {
+      "where": "div > div > p",
+      "text": "Solar payback comes down to a few numbers. Move the sliders and your savings and profit update straight away. Nothing to connect — try it before you buy.",
+      "was": "Solar payback comes down to a few numbers. Move the sliders and your savings and profit update straight away. Nothing to connect — try it before you buy."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/span[1]": {
+      "where": "div > div > span",
+      "text": "Input 1 — Generation",
+      "was": "Input 1 — Generation"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "What your system makes",
+      "was": "What your system makes"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[2]/p[1]": {
+      "where": "div > div > p",
+      "text": "Set how much energy your panels produce each year.",
+      "was": "Set how much energy your panels produce each year."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[3]/span[1]": {
+      "where": "div > div > span",
+      "text": "Input 2 — Time",
+      "was": "Input 2 — Time"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[3]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Over how many years",
+      "was": "Over how many years"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[3]/p[1]": {
+      "where": "div > div > p",
+      "text": "Look ahead up to 30 years.",
+      "was": "Look ahead up to 30 years."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[4]/span[1]": {
+      "where": "div > div > span",
+      "text": "Input 3 — Self-consumption",
+      "was": "Input 3 — Self-consumption"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[4]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "How much you use yourself",
+      "was": "How much you use yourself"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[4]/p[1]": {
+      "where": "div > div > p",
+      "text": "Energy you use at home is worth more than energy you export, so this has the biggest effect on your return.",
+      "was": "Energy you use at home is worth more than energy you export, so this has the biggest effect on your return."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[5]/span[1]": {
+      "where": "div > div > span",
+      "text": "Input 4 — Import rate",
+      "was": "Input 4 — Import rate"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[5]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Your grid rate",
+      "was": "Your grid rate"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[5]/p[1]": {
+      "where": "div > div > p",
+      "text": "What each unit you use yourself is worth — the price you'd have paid the grid.",
+      "was": "What each unit you use yourself is worth — the price you'd have paid the grid."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[6]/span[1]": {
+      "where": "div > div > span",
+      "text": "Input 5 — Export rate",
+      "was": "Input 5 — Export rate"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[6]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Your feed-in rate",
+      "was": "Your feed-in rate"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[6]/p[1]": {
+      "where": "div > div > p",
+      "text": "What you earn for the surplus you send back.",
+      "was": "What you earn for the surplus you send back."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[7]/span[1]": {
+      "where": "div > div > span",
+      "text": "The return",
+      "was": "The return"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[7]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Savings and payback",
+      "was": "Savings and payback"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[7]/p[1]": {
+      "where": "div > div > p",
+      "text": "Corrente adds up your savings, takes off the install cost, and shows when you break even.",
+      "was": "Corrente adds up your savings, takes off the install cost, and shows when you break even."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[8]/span[1]": {
+      "where": "div > div > span",
+      "text": "Property value",
+      "was": "Property value"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[8]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "Solar adds to your home's value",
+      "was": "Solar adds to your home's value"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[8]/p[1]": {
+      "where": "div > div > p",
+      "text": "Homes with solar sell for about <strong>1.3% more</strong>. Corrente adds that in too.",
+      "was": "Homes with solar sell for about <strong>1.3% more</strong>. Corrente adds that in too."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[8]/p[2]": {
+      "where": "div > div > p",
+      "text": "<a href=\"https://thinksolar.co.nz/knowledge-hub-posts/research-shows-solar-is-increasing-home-values-in-new-zealand/\" target=\"_blank\" rel=\"noopener\">Research: solar is increasing home values in New Zealand →</a>",
+      "was": "<a href=\"https://thinksolar.co.nz/knowledge-hub-posts/research-shows-solar-is-increasing-home-values-in-new-zealand/\" target=\"_blank\" rel=\"noopener\">Research: solar is increasing home values in New Zealand →</a>"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[9]/span[1]": {
+      "where": "div > div > span",
+      "text": "Investment status",
+      "was": "Investment status"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[9]/h3[1]": {
+      "where": "div > div > h3",
+      "text": "When you're in profit",
+      "was": "When you're in profit"
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[1]/div[9]/p[1]": {
+      "where": "div > div > p",
+      "text": "Savings plus added home value, against what you paid. See if it's paid for itself yet.",
+      "was": "Savings plus added home value, against what you paid. See if it's paid for itself yet."
+    },
+    "html[1]/body[1]/main[1]/section[1]/div[1]/div[2]/img[1]@alt": {
+      "where": "image alt text",
+      "text": "Corrente's Projection screen: sliders for projection period, yearly generation, and self-consumption; a generation breakdown of total, self-consumed, and exported energy; editable import and export rates; self-consumed and export savings totalling a lifetime figure; install cost and balance remaining; house value with a solar value boost and estimated value increase; and an In Profit investment status.",
+      "was": "Corrente's Projection screen: sliders for projection period, yearly generation, and self-consumption; a generation breakdown of total, self-consumed, and exported energy; editable import and export rates; self-consumed and export savings totalling a lifetime figure; install cost and balance remaining; house value with a solar value boost and estimated value increase; and an In Profit investment status."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/h2[1]": {
+      "where": "section > div > h2",
+      "text": "Try it yourself",
+      "was": "Try it yourself"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/p[1]": {
+      "where": "section > div > p",
+      "text": "Nothing to connect — the Projection screen works on its own, so you can plan before you buy. Free in the TestFlight beta.",
+      "was": "Nothing to connect — the Projection screen works on its own, so you can plan before you buy. Free in the TestFlight beta."
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "Join the TestFlight beta",
+      "was": "Join the TestFlight beta"
+    },
+    "html[1]/body[1]/main[1]/section[2]/div[1]/div[1]/span[1]": {
+      "where": "div > div > span",
+      "text": "Requires iOS 18",
+      "was": "Requires iOS 18"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[1]": {
+      "where": "div > nav > a",
+      "text": "About",
+      "was": "About"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[2]": {
+      "where": "div > nav > a",
+      "text": "Contact",
+      "was": "Contact"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[3]": {
+      "where": "div > nav > a",
+      "text": "Privacy Policy",
+      "was": "Privacy Policy"
+    }
+  },
+  "about.html": {
+    "html[1]/head[1]/title[1]": {
+      "where": "html > head > title",
+      "text": "Corrente — About",
+      "was": "Corrente — About"
+    },
+    "html[1]/head[1]/meta[3]@content": {
+      "where": "meta description",
+      "text": "Corrente is an iOS app for whole-home energy — built by Ant G, an ex-Wahooligan, to give one honest view of what your energy costs.",
+      "was": "Corrente is an iOS app for whole-home energy — built by Ant G, an ex-Wahooligan, to give one honest view of what your energy costs."
+    },
+    "html[1]/body[1]/nav[1]/div[1]/a[1]": {
+      "where": "nav > div > a",
+      "text": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente",
+      "was": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "How costs work",
+      "was": "How costs work"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[2]": {
+      "where": "div > div > a",
+      "text": "Projection",
+      "was": "Projection"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[3]": {
+      "where": "div > div > a",
+      "text": "Join the beta",
+      "was": "Join the beta"
+    },
+    "html[1]/body[1]/main[1]/a[1]": {
+      "where": "body > main > a",
+      "text": "&larr; Back to Corrente",
+      "was": "&larr; Back to Corrente"
+    },
+    "html[1]/body[1]/main[1]/h1[1]": {
+      "where": "body > main > h1",
+      "text": "About",
+      "was": "About"
+    },
+    "html[1]/body[1]/main[1]/article[1]/p[1]": {
+      "where": "main > article > p",
+      "text": "Corrente is developed by Ant G, an ex-Wahooligan who helped build the Wahoo ELEMNT iOS Companion app. Corrente grew out of wanting one honest view of a home's energy — where it's generated, where it's stored, and what it actually costs.",
+      "was": "Corrente is developed by Ant G, an ex-Wahooligan who helped build the Wahoo ELEMNT iOS Companion app. Corrente grew out of wanting one honest view of a home's energy — where it's generated, where it's stored, and what it actually costs."
+    },
+    "html[1]/body[1]/main[1]/article[1]/p[2]": {
+      "where": "main > article > p",
+      "text": "<em>Corrente</em> is Italian for <em>current</em> — the flow of electricity, and of energy through your home.",
+      "was": "<em>Corrente</em> is Italian for <em>current</em> — the flow of electricity, and of energy through your home."
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[1]": {
+      "where": "div > nav > a",
+      "text": "About",
+      "was": "About"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[2]": {
+      "where": "div > nav > a",
+      "text": "Contact",
+      "was": "Contact"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[3]": {
+      "where": "div > nav > a",
+      "text": "Privacy Policy",
+      "was": "Privacy Policy"
+    }
+  },
+  "contact.html": {
+    "html[1]/head[1]/title[1]": {
+      "where": "html > head > title",
+      "text": "Corrente — Contact",
+      "was": "Corrente — Contact"
+    },
+    "html[1]/head[1]/meta[3]@content": {
+      "where": "meta description",
+      "text": "Get in touch about Corrente — questions, feedback, or TestFlight beta support.",
+      "was": "Get in touch about Corrente — questions, feedback, or TestFlight beta support."
+    },
+    "html[1]/body[1]/nav[1]/div[1]/a[1]": {
+      "where": "nav > div > a",
+      "text": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente",
+      "was": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "How costs work",
+      "was": "How costs work"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[2]": {
+      "where": "div > div > a",
+      "text": "Projection",
+      "was": "Projection"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[3]": {
+      "where": "div > div > a",
+      "text": "Join the beta",
+      "was": "Join the beta"
+    },
+    "html[1]/body[1]/main[1]/a[1]": {
+      "where": "body > main > a",
+      "text": "&larr; Back to Corrente",
+      "was": "&larr; Back to Corrente"
+    },
+    "html[1]/body[1]/main[1]/h1[1]": {
+      "where": "body > main > h1",
+      "text": "Contact",
+      "was": "Contact"
+    },
+    "html[1]/body[1]/main[1]/article[1]/p[1]": {
+      "where": "main > article > p",
+      "text": "For questions, feedback, or beta support, please email <a href=\"mailto:antokne@gmail.com\">antokne@gmail.com</a>.",
+      "was": "For questions, feedback, or beta support, please email <a href=\"mailto:antokne@gmail.com\">antokne@gmail.com</a>."
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[1]": {
+      "where": "div > nav > a",
+      "text": "About",
+      "was": "About"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[2]": {
+      "where": "div > nav > a",
+      "text": "Contact",
+      "was": "Contact"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[3]": {
+      "where": "div > nav > a",
+      "text": "Privacy Policy",
+      "was": "Privacy Policy"
+    }
+  },
+  "privacy-policy.html": {
+    "html[1]/head[1]/title[1]": {
+      "where": "html > head > title",
+      "text": "Corrente — Privacy Policy",
+      "was": "Corrente — Privacy Policy"
+    },
+    "html[1]/head[1]/meta[3]@content": {
+      "where": "meta description",
+      "text": "How Corrente handles your energy data, account, and connected-service credentials — no advertising, no data selling.",
+      "was": "How Corrente handles your energy data, account, and connected-service credentials — no advertising, no data selling."
+    },
+    "html[1]/body[1]/nav[1]/div[1]/a[1]": {
+      "where": "nav > div > a",
+      "text": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente",
+      "was": "<img src=\"images/icon.png\" alt=\"\" width=\"30\" height=\"30\">\n                Corrente"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[1]": {
+      "where": "div > div > a",
+      "text": "How costs work",
+      "was": "How costs work"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[2]": {
+      "where": "div > div > a",
+      "text": "Projection",
+      "was": "Projection"
+    },
+    "html[1]/body[1]/nav[1]/div[1]/div[1]/a[3]": {
+      "where": "div > div > a",
+      "text": "Join the beta",
+      "was": "Join the beta"
+    },
+    "html[1]/body[1]/main[1]/a[1]": {
+      "where": "body > main > a",
+      "text": "&larr; Back to Corrente",
+      "was": "&larr; Back to Corrente"
+    },
+    "html[1]/body[1]/main[1]/h1[1]": {
+      "where": "body > main > h1",
+      "text": "Privacy Policy",
+      "was": "Privacy Policy"
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[1]/h2[1]": {
+      "where": "article > section > h2",
+      "text": "Personal info",
+      "was": "Personal info"
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[1]/p[1]": {
+      "where": "article > section > p",
+      "text": "Using Corrente's cloud features requires a Corrente account, identified by your email address. Beyond that, Corrente does not collect personal information, and it never sells your data or uses it for advertising.",
+      "was": "Using Corrente's cloud features requires a Corrente account, identified by your email address. Beyond that, Corrente does not collect personal information, and it never sells your data or uses it for advertising."
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[2]/h2[1]": {
+      "where": "article > section > h2",
+      "text": "How we collect info",
+      "was": "How we collect info"
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[2]/p[1]": {
+      "where": "article > section > p",
+      "text": "Corrente reads energy data — such as solar generation, battery state of charge, grid import and export, and home consumption — from the energy systems you choose to connect, including Tesla Powerwall and a <a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis switchboard</a>.",
+      "was": "Corrente reads energy data — such as solar generation, battery state of charge, grid import and export, and home consumption — from the energy systems you choose to connect, including Tesla Powerwall and a <a href=\"https://www.wearebasis.com\" target=\"_blank\" rel=\"noopener\">Basis switchboard</a>."
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[2]/p[2]": {
+      "where": "article > section > p",
+      "text": "To do this you authorise Corrente with each service using that service's own sign-in. Corrente only reads the data those services expose for your own systems.",
+      "was": "To do this you authorise Corrente with each service using that service's own sign-in. Corrente only reads the data those services expose for your own systems."
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[3]/h2[1]": {
+      "where": "article > section > h2",
+      "text": "How we store your credentials",
+      "was": "How we store your credentials"
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[3]/p[1]": {
+      "where": "article > section > p",
+      "text": "The OAuth tokens and API keys used to reach your energy services are stored in your device's Keychain. When you sign in to a Corrente account, they are also synced to CorrenteServer so it can fetch your energy data on your behalf. They are only ever used to talk to the services you connected.",
+      "was": "The OAuth tokens and API keys used to reach your energy services are stored in your device's Keychain. When you sign in to a Corrente account, they are also synced to CorrenteServer so it can fetch your energy data on your behalf. They are only ever used to talk to the services you connected."
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[4]/h2[1]": {
+      "where": "article > section > h2",
+      "text": "How we use your info",
+      "was": "How we use your info"
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[4]/p[1]": {
+      "where": "article > section > p",
+      "text": "Your energy data is used only to display your live status, history, costs, and ROI inside the app. It is not used for advertising or analytics.",
+      "was": "Your energy data is used only to display your live status, history, costs, and ROI inside the app. It is not used for advertising or analytics."
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[5]/h2[1]": {
+      "where": "article > section > h2",
+      "text": "CorrenteServer",
+      "was": "CorrenteServer"
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[5]/p[1]": {
+      "where": "article > section > p",
+      "text": "Corrente's cloud features are provided by CorrenteServer, a service operated by Corrente's developer. It fetches from your energy providers and stores your energy data — such as daily cost snapshots, circuit history, and your retail plan — so your history stays available without repeatedly querying those services.",
+      "was": "Corrente's cloud features are provided by CorrenteServer, a service operated by Corrente's developer. It fetches from your energy providers and stores your energy data — such as daily cost snapshots, circuit history, and your retail plan — so your history stays available without repeatedly querying those services."
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[5]/p[2]": {
+      "where": "article > section > p",
+      "text": "This stored energy data is anonymised: it is associated only with your Corrente account, and is not linked to any other personal identifying information.",
+      "was": "This stored energy data is anonymised: it is associated only with your Corrente account, and is not linked to any other personal identifying information."
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[6]/h2[1]": {
+      "where": "article > section > h2",
+      "text": "When we share your info",
+      "was": "When we share your info"
+    },
+    "html[1]/body[1]/main[1]/article[1]/section[6]/p[1]": {
+      "where": "article > section > p",
+      "text": "Corrente shares your requests only with the energy services you have connected, in order to fetch your own data. Nothing is shared with any other third party.",
+      "was": "Corrente shares your requests only with the energy services you have connected, in order to fetch your own data. Nothing is shared with any other third party."
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[1]": {
+      "where": "div > nav > a",
+      "text": "About",
+      "was": "About"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[2]": {
+      "where": "div > nav > a",
+      "text": "Contact",
+      "was": "Contact"
+    },
+    "html[1]/body[1]/footer[1]/div[1]/nav[1]/a[3]": {
+      "where": "div > nav > a",
+      "text": "Privacy Policy",
+      "was": "Privacy Policy"
+    }
+  }
+}

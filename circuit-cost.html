@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrente — How circuit costs work</title>
+    <meta name="description" content="Corrente shares your solar and battery across every circuit in proportion to what each one was drawing — so each circuit's cost is calculated by where its energy came from, not just by the tariff band it ran in.">
+    <link rel="icon" type="image/png" href="images/icon.png">
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Corrente — How circuit costs work">
+    <meta property="og:description" content="Solar and battery shared across every circuit, in proportion — so each circuit's cost reflects where its energy really came from.">
+    <meta property="og:url" content="https://antokne.github.io/corrente-web/circuit-cost.html">
+    <meta property="og:image" content="images/icon.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Corrente — How circuit costs work">
+    <meta name="twitter:description" content="Solar and battery shared across every circuit, in proportion — so each circuit's cost reflects where its energy really came from.">
+    <meta name="twitter:image" content="images/icon.png">
+
+    <link rel="stylesheet" href="styles.css?v=7">
+</head>
+<body>
+    <nav class="site-nav">
+        <div class="container">
+            <a href="index.html" class="nav-brand">
+                <img src="images/icon.png" alt="" width="30" height="30">
+                Corrente
+            </a>
+            <div class="nav-links">
+                <a href="circuit-cost.html" class="nav-link current">How costs work</a>
+                <a href="prediction.html" class="nav-link">Projection</a>
+                <a href="https://testflight.apple.com/join/Kmp21WzR" class="nav-cta">Join the beta</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero feature-hero">
+        <div class="container">
+            <div class="hero-copy">
+                <a href="index.html" class="back-link">&larr; Back to Corrente</a>
+                <span class="kicker">The heart of Corrente</span>
+                <h1>Every circuit's cost, calculated by <span class="accent">where its energy came from.</span></h1>
+                <p class="lead">Your <a href="https://www.wearebasis.com" target="_blank" rel="noopener">Basis switchboard</a> measures every circuit in your home. Corrente adds your solar and battery on top of that: it shares the solar you generated and the battery you discharged across those circuits, in proportion to what each one was drawing at the time. That step provides a more realistic estimate of what each circuit costs to run.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="feature-detail">
+            <div class="container">
+                <div class="detail-copy">
+                    <div class="detail-block">
+                        <span class="kicker">The problem</span>
+                        <h3>Solar usually isn't allocated per circuit</h3>
+                        <p>Unless your solar is wired to its own sub-circuit, your panels feed the whole house at once — so the switchboard allocates every kilowatt-hour to grid usage at your plan's time-of-use rates, as if it had all been imported.</p>
+                    </div>
+                    <div class="detail-block">
+                        <span class="kicker">Proportional allocation</span>
+                        <h3>Solar and battery, allocated in proportion</h3>
+                        <p>For every interval of the day, Corrente works out how much of the home's total load your own generation covered, then gives each circuit that same share, weighted by what the circuit actually drew. A circuit pulling a third of the load at midday gets a third of the solar.</p>
+                    </div>
+                    <div class="detail-block">
+                        <span class="kicker">By source</span>
+                        <h3>Every source, not just the tariff</h3>
+                        <p>Each interval is split by source, not just by time of day. The chart shows it directly: grid when you're importing, solar when the roof is carrying the load, battery when it's coming out of storage.</p>
+                    </div>
+                    <div class="detail-block">
+                        <span class="kicker">Amortised solar & battery</span>
+                        <h3>The amortised cost of solar and battery</h3>
+                        <p>Corrente lets you enter your own amortised cost per kWh for solar and battery, calculated however you like — for example, install cost (plus a replacement inverter, since they typically only last around 10 years) divided by expected generation over a 20-year lifespan. That gives an honest running cost instead of treating self-generated energy as free.</p>
+                    </div>
+                    <div class="detail-block">
+                        <span class="kicker">Two numbers that matter</span>
+                        <h3>Estimated bill cost and savings, per circuit</h3>
+                        <p><strong>Bill Cost</strong> is what your retailer will actually charge for that circuit — only the kWh that came from the grid, at your plan's own peak, shoulder, and off-peak rates. <strong>Savings</strong> is what you avoided paying by running on your own generation instead. Together they tell you what a circuit costs and what your system is doing for it.</p>
+                    </div>
+                    <div class="detail-block">
+                        <span class="kicker">Worked example</span>
+                        <h3>A day on one circuit</h3>
+                        <p>The screen alongside is a single circuit — an EV charger — on Wednesday 5 August. It charges overnight on off-peak grid power, then tops up again around midday while solar is generating.</p>
+                        <p><strong>25&nbsp;kWh</strong> of off-peak grid at <strong>$4.96</strong>, <strong>8.6&nbsp;kWh</strong> of solar amortised at <strong>$0.77</strong>, and <strong>351&nbsp;Wh</strong> of battery at <strong>$0.14</strong> — a bill cost of <strong>$4.96</strong> and <strong>$3.58</strong> saved.</p>
+                    </div>
+                    <div class="detail-block">
+                        <span class="kicker">Everything in the switchboard</span>
+                        <h3>Hot water, heat pump, oven, lighting</h3>
+                        <p>The same allocation runs across every circuit you have, over any period — day, week, month, or year. It's what makes it possible to say which appliance is genuinely expensive to run in your house, and which one your solar is already paying for.</p>
+                    </div>
+                </div>
+
+                <div class="detail-shot">
+                    <img src="images/circuit-cost-dark.png" alt="Corrente's circuit detail for an EV Charger on Wednesday 5 August 2026: an hourly chart split into off-peak, peak, battery, and solar, with an energy breakdown showing 8.6 kWh solar amortised at $0.77, 351 Wh battery at $0.14, 8.2 Wh peak at $0.00, 25 kWh off-peak at $4.96, savings of $3.58, and a bill cost of $4.96 for 25 kWh." width="1242" height="3000" loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <section class="compare band">
+            <div class="container">
+                <div class="section-head">
+                    <span class="kicker">Same circuit, same day</span>
+                    <h2>What per-circuit allocation adds</h2>
+                    <p>Basis generates per-circuit measurement. Corrente adds your solar, battery, and retail plan on top of it — two views of the same day, answering two different questions.</p>
+                </div>
+
+                <div class="compare-grid">
+                    <figure class="compare-card">
+                        <div class="compare-shot light">
+                            <img src="images/circuit-chart-basis.png" alt="Basis Home cost chart for one circuit on 5 August: hourly bars coloured as peak and off-peak, totalling $8.55 for the day." width="1242" height="990" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <span>Basis Home — cost by rate band</span>
+                            <p>Every hour the circuit ran, priced against the grid tariff in force at the time. Total for the day: <strong>$8.55</strong> — the right answer to "what would this have cost from the grid?", but it can't correctly allocate solar generation unless solar is wired to its own circuit.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="compare-card">
+                        <div class="compare-shot">
+                            <img src="images/circuit-chart-corrente.png" alt="Corrente's chart for the same circuit and day: overnight bars in off-peak blue, midday bars in solar amber with a slice of battery magenta." width="1242" height="930" loading="lazy">
+                        </div>
+                        <figcaption>
+                            <span>Corrente — cost by source</span>
+                            <p>The same day with your own generation accounted for. Corrente splits that $8.55 into <strong>$4.96</strong> you'll actually be billed and <strong>$3.58</strong> your solar and battery covered.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="compare-sum">
+                    <div class="sum-item"><span class="sum-label">Grid-rate cost</span><span class="sum-value">$8.55</span></div>
+                    <span class="sum-op">=</span>
+                    <div class="sum-item"><span class="sum-label">On your bill</span><span class="sum-value grid">$4.96</span></div>
+                    <span class="sum-op">+</span>
+                    <div class="sum-item"><span class="sum-label">Solar &amp; battery savings</span><span class="sum-value clean">$3.58</span></div>
+                </div>
+                <p class="compare-note">Figures from a real day on a Basis switchboard with rooftop solar and a home battery. Corrente is an independent app built on the Basis platform.</p>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <h2>See it on your own switchboard</h2>
+                <p>Connect your Basis system and your solar, and every circuit in your home gets the same treatment. Free in the TestFlight beta.</p>
+                <div class="hero-actions">
+                    <a href="https://testflight.apple.com/join/Kmp21WzR" class="tf-badge">
+                        Join the TestFlight beta
+                    </a>
+                    <span class="price-line">Requires iOS 18</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

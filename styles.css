@@ -122,6 +122,24 @@ img { display: block; max-width: 100%; }
     border-radius: 8px;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.nav-link {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nav-link:hover { color: var(--paper); }
+.nav-link.current { color: var(--clean); }
+
 .nav-cta {
     font-family: var(--font-mono);
     font-size: 0.8rem;
@@ -266,6 +284,70 @@ img { display: block; max-width: 100%; }
 .spotlight-list li span {
     color: var(--paper);
     font-weight: 600;
+}
+
+.spotlight-cta,
+.pill-link {
+    margin-top: 1.5rem;
+}
+
+.spotlight-cta a,
+.pill-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    color: var(--clean);
+    text-decoration: none;
+    padding: 0.6rem 1.1rem;
+    border: 1px solid var(--clean);
+    border-radius: 100px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.spotlight-cta a:hover,
+.pill-link a:hover {
+    background: var(--clean);
+    color: var(--ink);
+}
+
+/* ---- In-development callout ---- */
+.in-progress {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.in-progress .kicker { margin-bottom: 0.75rem; }
+
+.in-progress h2 {
+    font-size: clamp(1.6rem, 3.5vw, 2rem);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.in-progress p {
+    color: var(--muted);
+    max-width: 640px;
+    margin: 0 auto 0.85rem;
+}
+
+.in-progress .pill-link { margin-top: 1.75rem; }
+
+/* Headline proof line under the spotlight, spanning both columns */
+.spotlight-proof {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background: var(--ink);
+    border: 1px solid var(--edge);
+    border-radius: var(--radius);
 }
 
 /* ---- Section headers ---- */
@@ -583,17 +665,31 @@ footer a:hover { color: var(--clean); }
 
 .page section { margin-bottom: 0.5rem; }
 
+/* Pill so it never reads as part of the heading or kicker that follows it. */
 .back-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
     font-family: var(--font-mono);
     font-size: 0.8rem;
     letter-spacing: 0.04em;
+    padding: 0.45rem 0.9rem;
     margin-bottom: 1.5rem;
     color: var(--muted);
     text-decoration: none;
+    background: var(--panel);
+    border: 1px solid var(--edge);
+    border-radius: 999px;
+    transition: border-color 0.2s, color 0.2s;
 }
 
-.back-link:hover { color: var(--clean); }
+.back-link:hover {
+    color: var(--clean);
+    border-color: var(--clean);
+}
+
+.page .back-link { color: var(--muted); }
+.page .back-link:hover { color: var(--clean); text-decoration: none; }
 
 .page-image {
     width: 100%;
@@ -636,7 +732,13 @@ footer a:hover { color: var(--clean); }
 .feature-hero .container { grid-template-columns: 1fr; }
 .feature-hero .hero-copy { max-width: none; }
 .feature-hero .hero-copy .lead { max-width: none; }
-.feature-hero .back-link { margin-bottom: 1.5rem; }
+/* Back link and kicker are both small mono text — keep them clearly apart. */
+.feature-hero .back-link { margin-bottom: 2.25rem; }
+
+.feature-hero .hero-copy .kicker {
+    display: block;
+    margin-bottom: 1rem;
+}
 
 .feature-detail { padding: 4rem 0 4.5rem; }
 
@@ -688,8 +790,103 @@ footer a:hover { color: var(--clean); }
     border-radius: 10px;
 }
 
+/* ---- Side-by-side comparison ---- */
+.compare { padding: 4.5rem 0; }
+
+.compare-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.compare-card {
+    background: var(--panel-2);
+    border: 1px solid var(--edge);
+    border-radius: var(--radius);
+    padding: 1rem;
+}
+
+.compare-shot {
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.compare-shot.light { background: #fff; }
+
+.compare-shot img { width: 100%; height: auto; }
+
+.compare-card figcaption span {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--clean);
+    margin-bottom: 0.5rem;
+}
+
+.compare-card figcaption p {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.compare-sum {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 1.75rem 1.5rem;
+    background: var(--ink);
+    border: 1px solid var(--edge);
+    border-radius: var(--radius);
+}
+
+.sum-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    text-align: center;
+}
+
+.sum-label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.sum-value {
+    font-family: var(--font-mono);
+    font-size: 1.65rem;
+    color: var(--paper);
+}
+
+.sum-value.grid { color: var(--grid); }
+.sum-value.clean { color: var(--clean); }
+
+.sum-op {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    color: var(--muted);
+}
+
+.compare-note {
+    margin-top: 1.25rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
+    .compare-grid { grid-template-columns: 1fr; }
+
     .feature-detail .container {
         grid-template-columns: 1fr;
         gap: 2.5rem;
